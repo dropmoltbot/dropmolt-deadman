@@ -741,6 +741,10 @@ let BYTECODE = "0x"; // placeholder — we set this after forge build
 
 let provider, signer, account, contract;
 let contractAddress = localStorage.getItem("dms_contract");
+if (!contractAddress) {
+  contractAddress = "0x676A091c15C2e6ad323070a8e1C1a28718fE2De5";
+  localStorage.setItem("dms_contract", contractAddress);
+}
 let countdownInterval;
 
 /* ─── Helpers ─── */
