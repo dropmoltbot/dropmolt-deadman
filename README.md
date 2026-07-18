@@ -47,6 +47,24 @@ If you die, disappear, or lose your keys, your crypto is lost forever. Tradition
 | `status()` | Anyone | View all state |
 | `isDead()` | Anyone | Check if claimable |
 
+## Deployed Contract
+
+**Address:** `0x676A091c15C2e6ad323070a8e1C1a28718fE2De5`
+**Chain:** Monad Testnet (chain ID 10143)
+**RPC:** `https://testnet-rpc.monad.xyz`
+**Explorer:** `https://testnet.monadexplorer.com/address/0x676A091c15C2e6ad323070a8e1C1a28718fE2De5`
+
+### Onchain state (verified July 18 2026)
+
+| | |
+|---|---|
+| Owner | `0x2E945b445Db72f00D3F0433b8563C7a0AaF8aa0E` |
+| Beneficiary | `0x70997970C51812dc3A010C7d01b50e0d17dc79C8` |
+| Balance | 0.05 MON |
+| Timeout | 30 days (2,592,000 s) |
+| Last check-in | Block 45,924,535 |
+| Status | ✅ ACTIVE |
+
 ## Build & test
 
 ```bash
@@ -54,6 +72,12 @@ forge install
 forge build
 forge test -vv
 ```
+
+## Live demo
+
+- **Frontend:** https://dropmoltbot.github.io/dropmolt-deadman/
+- **Contract:** `0x676A091c15C2e6ad323070a8e1C1a28718fE2De5`
+- **Chain:** Monad Testnet (10143)
 
 ## Deploy
 
